@@ -1,0 +1,12 @@
+{
+  "name": "image-zoom",
+  "version": "1.0.0",
+  "description": "Vanilla JS image zoom viewer",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "optimize": "node optimize-image.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.4"
+  }
+}
